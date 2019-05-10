@@ -11,9 +11,10 @@ gem install rails -v 4.2.11
 https://github.com/Omar-Chowdhury/Xplor-new
 
 
-cd Xplor
+cd Xplor-new
 
-bundle install
+# open new terminal in Xplor
+bundle install 
 
 # to run server
 
