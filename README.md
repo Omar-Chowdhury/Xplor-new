@@ -1,18 +1,20 @@
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+To Set Up in Cloud9, run:
+
+# Run all development in Cloud9 so we all have the same Dev environment # Do NOT push into master. Submit pull request. # We're using ruby version 2.4.0 and rails 4.2.11.
+
+gem install rails -v 4.2.11
 
 
-Hi there! Welcome to Cloud9 IDE!
+# for cloning the git repo, use the https link
 
-To get you started, create some files, play with the terminal,
-or visit http://docs.c9.io for our documentation.
-If you want, you can also go watch some training videos at
-http://www.youtube.com/user/c9ide.
+https://github.com/Omar-Chowdhury/Xplor-new
 
-Happy coding!
-The Cloud9 IDE team
+
+cd Xplor
+
+bundle install
+
+# to run server
+
+rails s -p $PORT -b $IP
